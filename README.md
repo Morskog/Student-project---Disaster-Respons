@@ -65,12 +65,20 @@ The repository consist of three folders and one readme file:
 # To run the APP:
 First step:
 	-	Run the process_data.py, disaster_messages.csv, disaster_categories.csv and DisasterRespons.db in the data folder
+	
+		o	This will load the ETL model and load the nesesarie files needed to start the APP .
 
 Second step:
 	- 	Run the train_classifier.py in the models fail, start the DisasterRespns.db in the data file and the classifier.pkl in 			the models file
+
+		o	This command line will start the start the prediction of the loaded messages, and make the prediction that can 				be seen in the APP.
 	
 Third step:
 	- 	Go to http://0.0.0.0:3001/
+
+		o	This will start the APP  where the help organization can get at overview over the messages and go in and check 				one messages if they would look at them individually.
 	
 # Thanks to:
-Udacity lessons and coworkers
+Udacity lessons and co-workers
+
+
