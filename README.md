@@ -2,8 +2,6 @@
 In this student project we get a real dataset from Figure Eight where we would make a model that classifies disaster messages. We will make a maskinlearing model that classifies this messages into one of 36 categories. In the end we made a APP where the classification of the messages can be classified in one or more of the categories. The messages came in three different genres and 36 categories.
  
 
- 
-
 # Usage
 The project consists of three different areas:
 	-	Write a ETL pipeline to preicess_data, who should do:
