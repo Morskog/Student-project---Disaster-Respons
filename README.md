@@ -61,3 +61,16 @@ The repository consist of three folders and one readme file:
 			* The code that start and run the APP
 
 		o	Templates folder with two html files
+		
+# To run the APP:
+First step:
+	-	Run the process_data.py, disaster_messages.csv, disaster_categories.csv and DisasterRespons.db in the data folder
+
+Second step:
+	- 	Run the train_classifier.py in the models fail, start the DisasterRespns.db in the data file and the classifier.pkl in 			the models file
+	
+Third step:
+	- 	Go to http://0.0.0.0:3001/
+	
+# Thanks to:
+Udacity lessons and coworkers
